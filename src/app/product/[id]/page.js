@@ -13,7 +13,7 @@ export default function Product({ params }) {
         <ProductDetail
           classNameBack='text-black'
           onClickBack={() => router.push('/#products')}
-          variant='horizontal'
+          variant='vertical'
           classNameButtonDefault='bg-white text-black border-primary'
           id={params.id}
         />
